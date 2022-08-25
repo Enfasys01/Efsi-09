@@ -34,7 +34,7 @@ const Form = (props) =>{
 						onChange={function(event){props.setCountry(event.value)}}/>
 					</li>
 					<li>
-						<input type='submit' className='bg-yellow-400 rounded-md py-2' style={{width:'100%'}}></input>
+						<input type='submit' className='ring ring-offset-0 ring-yellow-400 bg-yellow-400 rounded-md py-1 mt-4  hover:ring-yellow-500 cursor-pointer focus:outline-none focus:ring-yellow-500 active:bg-yellow-500' style={{width:'100%'}}></input>
 					</li>
 				</ul>
 			</form>
