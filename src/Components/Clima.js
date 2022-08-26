@@ -1,5 +1,4 @@
 const Clima = (props) =>{
-  console.log(props.data)
   const parseCelsius = (kelvin) =>{
     return (parseInt(kelvin-273.15))
   }
